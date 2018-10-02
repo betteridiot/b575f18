@@ -1,3 +1,6 @@
+import sys
+import os
+
 # Top-level commands
 print('Top-level loaded')
 
@@ -14,3 +17,5 @@ def main():
 if __name__ == '__main__':
     print('CLI')
     main()
+if __name__ != '__main__':
+    other_main()
