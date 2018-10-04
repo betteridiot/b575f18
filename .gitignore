@@ -1,3 +1,8 @@
 .ipynb_checkpoints/
 *.pyc
 datasets/.ipynb_checkpoints/
+counter.py
+datasets/excel_output.xlsx
+datasets/mitbih_train.csv.zip
+datasets/some_file.csv
+jeff.py
