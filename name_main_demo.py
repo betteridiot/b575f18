@@ -3,6 +3,7 @@ import os
 
 # Top-level commands
 print('Top-level loaded')
+print(sys.argv[1])
 
 # Encapsulating operations within functions
 def foo():
@@ -10,12 +11,12 @@ def foo():
     return None
 
 # What happens from the command line
-def main():
+def main(bar):
     print('Command line curator')
+    print(bar)
     return None
 
 if __name__ == '__main__':
     print('CLI')
-    main()
-if __name__ != '__main__':
-    other_main()
+    main(sys.argv[1])
+
